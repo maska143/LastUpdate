@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.title-forget{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.forget{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 5%;
+    flex-direction: column;
+ 
+}
+.forget-form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.forget-span{
+    font-size: 22px;
+    font-family: 'Lora', serif;
+
+    margin-top: 10px;
+}
+.forget-input{
+    width: 380px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 22px;
+    border: 0.25px solid #bface0;
+}
+.forget-btn{
+    padding: 10px 70px;
+    width: max-content;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #645caa;
+  
+    color: #fff;
+    font-weight: 500;
+}
+.group-one-forget{
+    display: flex;
+    margin-top: 20px;
+}
+.back-to-login{
+    padding-left: 30px;
+}
+.linkK{
+    text-decoration: none;
+ color: #645caa;
+}

@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  background-color: #fafafc;
+}
+.items-logout {
+ margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px 70px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  width: max-content;
+  margin-right: 20px;
+  background-color: #645caa;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.nav-btn {
+}
+.navitems {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-left: 20px;
+  color: #645caa;
+}
+.items {
+  padding: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  font-size: 16px;
+}
+.dashboard-big-title {
+  margin-top: 5%;
+  margin-left: 35%;
+  width: max-content;
+  height: max-content;
+  background-color: #645caa;
+  border-radius: 20px;
+}
+.dashboard-big-title-txt {
+  padding: 30px 100px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.dashboard-announcement {
+  margin-left: 45%;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+}
+
+.card-one {
+  margin-left: 20%;
+  margin-top: 100px;
+}
+.card-img {
+  width: 320px;
+  height: 220px;
+}
+.card-title {
+  font-size: 25px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.allcard {
+  display: flex;
+}
+.card-two {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.card-three {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+margin-top: 10%;
+  background-color: #645caa;
+}
+.footeritems{
+  color: #fff;
+  display: flex;
+  margin-left: 35%;
+  list-style: none;
+
+  font-size: 25px;
+}
+.item{
+  padding: 50px;
+  padding-bottom: 70px;
+  font-family: "Roboto", sans-serif;
+}
+.topImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+margin-left: 1000px;
+  cursor: pointer;
+  margin-left: 45%;
+  margin-right: 50px;
+}
+.pp{
+  display: flex;
+margin-left: 300px;
+margin-top: 10px;
+margin-left: 600px;
+margin-right: 10px;
+}

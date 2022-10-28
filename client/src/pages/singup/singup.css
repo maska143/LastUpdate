@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+.singup{
+display: flex;
+}
+.singup-form{
+    display: flex;
+    margin-top: 10%;
+
+    margin-left: 5%;
+    align-items: center;
+width: max-content;
+height: max-content;
+  border: 0.25px  solid #645CAA;
+
+}
+.group-one{
+
+display: flex;
+padding-top: 50px;
+flex-direction: column;
+padding-bottom: 100px;
+padding-left: 100px;
+
+
+
+}
+.group-one-span{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+
+}
+.group-one-input{
+    width: 380px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 22px;
+border: 0.25px solid #BFACE0;
+}
+.group-two{
+
+display: flex;
+flex-direction: column;
+padding-top: 50px;
+
+
+padding-bottom: 280px;
+padding-left: 100px;
+margin-right: 100px;
+
+}
+.group-two-input{
+    width: 380px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 22px;
+border: 0.25px solid #BFACE0;
+}
+.group-two-span{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+.group-one-btn{
+padding: 10px 70px;
+width: max-content;
+margin-top: 20px;
+font-size: 20px;
+background-color: #645CAA;
+color: #fff;
+font-weight: 500;
+
+}
+.link{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif
+}
+.group-one-sub{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 10px;
+
+}
+.forget{
+
+
+    margin-top: 5px;
+    padding-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: max-content;
+}
+
+
+

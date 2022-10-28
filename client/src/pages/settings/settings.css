@@ -1,0 +1,32 @@
+.settingsPP{
+    margin-top: -300px;
+padding-left: 100px
+;
+padding-bottom: 100px;
+padding-right: 50px;
+}
+.settingsPP {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .settingsPP > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .settingsPPIcon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
